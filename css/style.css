@@ -162,6 +162,14 @@
 
 
 /*** Hero Header ***/
+
+.hero-header-nav{
+    background: url(../img/colorbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero-header {
     background: url(../img/gerilya.png);
     background-position: center;
