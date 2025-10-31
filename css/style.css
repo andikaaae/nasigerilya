@@ -164,10 +164,7 @@
 /*** Hero Header ***/
 
 .hero-header-nav{
-    background: url(../img/colorbg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: var(--bs-red)
 }
 
 .hero-header {
