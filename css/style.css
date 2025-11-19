@@ -130,7 +130,7 @@
 
     .navbar-dark .navbar-collapse {
         margin-top: 15px;
-        border-top: 1px solid rgb(216, 4, 4)
+        border-top: 1px solid rgb(247, 10, 10)
     }
 
     .navbar-dark .navbar-nav .nav-link,
@@ -156,7 +156,7 @@
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: rgb(209, 2, 2) !important;
+        background: rgb(252, 8, 8) !important;
     }
 }
 
@@ -168,7 +168,7 @@
 }
 
 .hero-header {
-    background: url(../img/1252.jpg);
+    background: url(../img/c.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
