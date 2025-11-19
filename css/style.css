@@ -33,12 +33,12 @@
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    transition: opacity .3s ease-out, visibility 0s linear .3s;
     z-index: 99999;
 }
 
 #spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    transition: opacity .3s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
 }
