@@ -32,16 +32,10 @@
 </head>
 <body>
 <div class="container-xxl bg-white p-0">
-    <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
+
     <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-danger px-4 px-lg-5 py-3 py-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-dark px-4 px-lg-5 py-3 py-lg-0" style="background: var(--danger);">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="text-light m-0">
                         <img src="img/pp.png" alt="Logo">
@@ -56,25 +50,13 @@
                     </div>
                     <a href="booking.html" class="btn btn-warning py-sm-2 px-sm-2 me-2">Booking Meja</a>
                 </div>
-            </nav>
-
-            <div class="container-xxl py-5 hero-header-nav mb-5">
-            </div>
+            </nav>    
         </div>
         <!-- Navbar & Hero End -->
 
     <!-- Reservation Start -->
-        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="row g-0">
-                <div class="col-md-6">
-                    <div class="video">
-                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-md-6 d-flex bg-danger">
-                    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="col-md-6 d-flex bg-danger">
+                    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s" style="background-image: url(./img/4.png);">
                         <h5 class="section-title text-start text-white fw-normal">Reservasi</h5>
                         <h1 class="text-white mb-4">Booking Meja Online</h1>
                         <form onsubmit="sendMessage()">
@@ -100,16 +82,16 @@
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <select class="form-select" id="select1">
-                                          <option value="4">4 Orang</option>
-                                          <option value="6">6 Orang</option>
-                                          <option value="8">8 Orang</option>
-                                          <option value="10">10 Orang</option>
-                                          <option value="12">12 Orang</option>
-                                          <option value="14">14 Orang</option>
-                                          <option value="16">16 Orang</option>
+                                        <option value="4">4 Orang</option>
+                                        <option value="6">6 Orang</option>
+                                        <option value="8">8 Orang</option>
+                                        <option value="10">10 Orang</option>
+                                        <option value="12">12 Orang</option>
+                                        <option value="14">14 Orang</option>
+                                        <option value="16">16 Orang</option>
                                         </select>
                                         <label for="select1">Jumlah Orang</label>
-                                      </div>
+                                    </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
@@ -124,25 +106,6 @@
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/-zntoRVEZyk?si=44Jru3KzX4gGJzNn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Reservation Start -->
 
         <!-- Footer Start -->
@@ -153,7 +116,7 @@
                         <h4 class="section-title text-start text-white fw-normal mb-4">Sosial Media</h4>
                         <!-- <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p> -->
                         <div class="position-relative mx-auto" style="max-width: 400px;">
-                           <div class="d-flex pt-2">
+                        <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/nasigerilyamedan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/sambalgerilya"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://youtube.com/@nasigerilya?si=Nx0ieUneerIUY9le"><i class="fab fa-youtube"></i></a>
@@ -210,7 +173,7 @@
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-     <!-- Template Javascript -->
+    <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
 </html>
